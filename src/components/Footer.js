@@ -14,7 +14,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/issagaservice" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 transition duration-300">
               <FaFacebookF size={24} />
             </a>
-            <a href="https://www.instagram.com/issagaservice" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 transition duration-300">
+            <a href="https://www.instagram.com/issagaserviceconsultant235?igsh=MWlhYXJ4YnNmczZydQ==" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 transition duration-300">
               <FaInstagram size={24} />
             </a>
             <a href="https://www.linkedin.com/company/issagaservice" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300 transition duration-300">

@@ -16,11 +16,9 @@ export const translations = {
       },
       about: {
         title: "About Company",
-        paragraph1: "Issaga Service & Consultant, established in 2019, is a well-known facilitator of international trade between Turkey and Chad. We specialize in connecting companies, exporters, and importers across various sectors including construction equipment, furniture, textile, military equipment, work clothes, perfumes, hardware supplies, and slippers.",
+        paragraph1: "Issaga Service & Consultant is a facilitator of international trade between Turkey and Chad. We specialize in connecting companies, exporters, and importers across various sectors including construction equipment, furniture, textile, military equipment, work clothes, perfumes, hardware supplies, and slippers.",
         paragraph2: "Our range of services covers a wide spectrum of products, ensuring optimal connections and smooth transactions between businesses in both countries. We take pride in our ability to foster strong partnerships and maintain high-quality product chains.",
         quote: "\"Like a seed sown with faith, Issaga Service & Consultant may seem small, but we grow to bear much fruit in the realm of international trade.\"",
-        founderName: "Ishak Hakki Zendi",
-        founderTitle: "Founder & CEO",
       },
       sectors: {
         title: "Our Sectors",
@@ -32,6 +30,8 @@ export const translations = {
         perfumes: "Perfumes",
         hardwareSupplies: "Hardware Supplies",
         slippers: "Slippers",
+        carpets: "Carpets",
+        healthTourism: "Health Tourism",
       },
       services: {
         title: "Our Services",
@@ -120,11 +120,9 @@ export const translations = {
       },
       about: {
         title: "À propos de l'entreprise",
-        paragraph1: "Issaga Service & Consultant, créée en 2019, est un facilitateur reconnu du commerce international entre la Turquie et le Tchad. Nous nous spécialisons dans la mise en relation d'entreprises, d'exportateurs et d'importateurs dans divers secteurs, notamment les équipements de construction, le mobilier, le textile, l'équipement militaire, les vêtements de travail, les parfums, les fournitures de quincaillerie et les pantoufles.",
+        paragraph1: "Issaga Service & Consultant est un facilitateur du commerce international entre la Turquie et le Tchad. Nous nous spécialisons dans la mise en relation d'entreprises, d'exportateurs et d'importateurs dans divers secteurs, notamment les équipements de construction, le mobilier, le textile, l'équipement militaire, les vêtements de travail, les parfums, les fournitures de quincaillerie et les pantoufles.",
         paragraph2: "Notre gamme de services couvre un large éventail de produits, assurant des connexions optimales et des transactions fluides entre les entreprises des deux pays. Nous sommes fiers de notre capacité à favoriser des partenariats solides et à maintenir des chaînes de produits de haute qualité.",
         quote: "\"Comme une graine semée avec foi, Issaga Service & Consultant peut sembler petite, mais nous grandissons pour porter beaucoup de fruits dans le domaine du commerce international.\"",
-        founderName: "Ishak Hakki Zendi",
-        founderTitle: "Fondateur et PDG",
       },
       sectors: {
         title: "Nos secteurs",
@@ -136,6 +134,8 @@ export const translations = {
         perfumes: "Parfums",
         hardwareSupplies: "Fournitures de quincaillerie",
         slippers: "Pantoufles",
+        carpets: "Tapis",
+        healthTourism: "Tourisme de santé",
       },
       services: {
         title: "Nos services",
@@ -217,18 +217,16 @@ export const translations = {
         contact: "İletişim",
       },
       hero: {
-        title: "Türkiye ve Çad'ı Birleştiriyoruz",
+        title: "Türkiye ve Çad arasında köprü oluyoruz",
         subtitle: "Uluslararası ticarette güvenilir ortağınız",
         exploreButton: "Sektörleri Keşfet",
         contactButton: "Bize Ulaşın",
       },
       about: {
         title: "Şirket Hakkında",
-        paragraph1: "2019 yılında kurulan Issaga Service & Consultant, Türkiye ve Çad arasındaki uluslararası ticaretin tanınmış bir kolaylaştırıcısıdır. İnşaat ekipmanları, mobilya, tekstil, askeri ekipman, iş kıyafetleri, parfümler, hırdavat malzemeleri ve terlikler dahil olmak üzere çeşitli sektörlerde şirketleri, ihracatçıları ve ithalatçıları bir araya getirme konusunda uzmanız.",
+        paragraph1: "Issaga Service & Consultant, Türkiye ve Çad arasındaki uluslararası ticaretin bir kolaylaştırıcısıdır. İnşaat ekipmanları, mobilya, tekstil, askeri ekipman, iş kıyafetleri, parfümler, hırdavat malzemeleri ve terlikler dahil olmak üzere çeşitli sektörlerde şirketleri, ihracatçıları ve ithalatçıları bir araya getirme konusunda uzmanız.",
         paragraph2: "Hizmet yelpazemiz geniş bir ürün yelpazesini kapsamakta olup, her iki ülkedeki işletmeler arasında optimum bağlantılar ve sorunsuz işlemler sağlamaktadır. Güçlü ortaklıklar kurma ve yüksek kaliteli ürün zincirleri sürdürme yeteneğimizle gurur duyuyoruz.",
         quote: "\"İnançla ekilen bir tohum gibi, Issaga Service & Consultant küçük görünebilir, ancak uluslararası ticaret alanında çok meyve vermek için büyüyoruz.\"",
-        founderName: "İshak Hakkı Zendi",
-        founderTitle: "Kurucu ve CEO",
       },
       sectors: {
         title: "Sektörlerimiz",
@@ -240,6 +238,8 @@ export const translations = {
         perfumes: "Parfümler",
         hardwareSupplies: "Hırdavat Malzemeleri",
         slippers: "Terlikler",
+        carpets: "Halılar",
+        healthTourism: "Sağlık Turizmi",
       },
       services: {
         title: "Hizmetlerimiz",
@@ -328,11 +328,9 @@ export const translations = {
       },
       about: {
         title: "عن الشركة",
-        paragraph1: "تأسست Issaga Service & Consultant في عام 2019، وهي ميسر معروف للتجارة الدولية بين تركيا وتشاد. نحن متخصصون في ربط الشركات والمصدرين والمستوردين عبر قطاعات مختلفة بما في ذلك معدات البناء والأثاث والمنسوجات والمعدات العسكرية وملابس العمل والعطور ومستلزمات الأجهزة والشباشب.",
+        paragraph1: "Issaga Service & Consultant هو ميسر للتجارة الدولية بين تركيا وتشاد. نحن متخصصون في ربط الشركات والمصدرين والمستوردين عبر قطاعات مختلفة بما في ذلك معدات البناء والأثاث والمنسوجات والمعدات العسكرية وملابس العمل والعطور ومستلزمات الأجهزة والشباشب.",
         paragraph2: "تغطي مجموعة خدماتنا طيفًا واسعًا من المنتجات، مما يضمن الاتصالات المثلى والمعاملات السلسة بين الشركات في كلا البلدين. نحن نفخر بقدرتنا على تعزيز الشراكات القوية والحفاظ على سلاسل المنتجات عالية الجودة.",
         quote: "\"مثل البذرة المزروعة بإيمان، قد تبدو Issaga Service & Consultant صغيرة، لكننا ننمو لنثمر كثيرًا في مجال التجارة الدولية.\"",
-        founderName: "إسحاق حقي زندي",
-        founderTitle: "المؤسس والرئيس التنفيذي",
       },
       sectors: {
         title: "قطاعاتنا",
@@ -344,6 +342,8 @@ export const translations = {
         perfumes: "العطور",
         hardwareSupplies: "مستلزمات الأجهزة",
         slippers: "الشباشب",
+        carpets: "السجاد",
+        healthTourism: "السياحة الصحية",
       },
       services: {
         title: "خدماتنا",

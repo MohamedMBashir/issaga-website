@@ -5,12 +5,14 @@ import { useLanguage } from '../context/LanguageContext';
 const sectors = [
   { name: 'constructionEquipment', icon: '🏗️', images: ['construction_1.jpg', 'construction_2.jpg', 'construction_3.jpg', 'construction_4.jpg', 'construction_5.jpg'] },
   { name: 'furniture', icon: '🪑', images: ['furniture_1.jpg', 'furniture_2.jpg', 'furniture_3.jpg', 'furniture_4.jpg', 'furniture_5.jpg'] },
-  { name: 'foodIndustry', icon: '🍽️', images: ['food_industry_1.jpg', 'food_industry_2.jpg', 'food_industry_3.jpg', 'food_industry_4.jpg', 'food_industry_5.jpg'] },
+  { name: 'foodIndustry', icon: '🍽️', images: ['food_industry_1.jpg', 'food_industry_2.jpg', 'food_industry_3.jpg', 'food_industry_4.jpg', 'food_industry_5.jpg', 'food_industry_6.jpg', 'food_industry_7.jpg'] },
   { name: 'militaryEquipment', icon: '🛡️', images: ['military_1.jpg', 'military_2.jpg', 'military_3.jpg', 'military_4.jpg', 'military_5.jpg'] },
   { name: 'workClothes', icon: '👷', images: ['workclothes_1.jpg', 'workclothes_2.jpg', 'workclothes_3.jpg', 'workclothes_4.jpg', 'workclothes_5.jpg'] },
   { name: 'perfumes', icon: '🧴', images: ['perfume_1.jpg', 'perfume_2.jpg', 'perfume_3.jpg', 'perfume_4.jpg', 'perfume_5.jpg'] },
   { name: 'hardwareSupplies', icon: '🔧', images: ['hardware_supplies_1.jpg', 'hardware_supplies_2.jpg', 'hardware_supplies_3.jpg', 'hardware_supplies_4.jpg', 'hardware_supplies_5.jpg'] },
-  { name: 'slippers', icon: '🥿', images: ['slippers_1.jpg', 'slippers_2.jpg', 'slippers_3.jpg', 'slippers_4.jpg', 'slippers_5.jpg'] },
+  { name: 'slippers', icon: '🩴', images: ['slippers_1.jpg', 'slippers_2.jpg', 'slippers_3.jpg', 'slippers_4.jpg', 'slippers_5.jpg'] },
+  { name: 'carpets', icon: '🧶', images: ['carpet_1.jpg', 'carpet_2.jpg', 'carpet_3.jpg', 'carpet_4.jpg', 'carpet_5.jpg'] },
+  { name: 'healthTourism', icon: '🏥', images: ['health_1.jpg', 'health_2.jpg', 'health_3.jpg', 'health_4.jpg', 'health_5.jpg'] },
 ];
 
 const FeaturedSectors = () => {
@@ -51,7 +53,7 @@ const FeaturedSectors = () => {
     <section id="sectors" className="featured-sectors py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-16 text-yellow-600">{t('sectors.title')}</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-12 justify-center">
           {sectors.map((sector, index) => (
             <div 
               key={index} 

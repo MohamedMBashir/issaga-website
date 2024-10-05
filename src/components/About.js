@@ -20,10 +20,7 @@ const About = () => {
             <p className="text-gray-700 mb-4 leading-relaxed">{t('about.paragraph1')}</p>
             <p className="text-gray-700 mb-4 leading-relaxed">{t('about.paragraph2')}</p>
             <p className="text-gray-700 mb-4 leading-relaxed italic">{t('about.quote')}</p>
-            <div className="text-right">
-              <p className="text-xl font-semibold text-yellow-600">{t('about.founderName')}</p>
-              <p className="text-gray-600">{t('about.founderTitle')}</p>
-            </div>
+            {/* Removed founderName and founderTitle */}
           </div>
         </div>
       </div>
